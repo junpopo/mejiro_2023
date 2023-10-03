@@ -1,0 +1,15 @@
+@import "variables.scss";
+
+#news {
+    width: 100%;
+    height: 10rem;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: #f6efd8;
+    .container {
+      width: 100%;
+      height: 10rem;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+/* backgroud-color */
+/* font-color */
+#sideSwiper {
+  width: 100%;
+  height: 40rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background: #FBC31F;
+}
+
+#sideSwiper .swiper {
+  width: 100%;
+  height: 100%;
+  background: rgb(214, 7, 233);
+}
+#sideSwiper .swiper h1 {
+  position: relative;
+  left: 25px;
+}
+
+#sideSwiper .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -25px;
+}
+
+#sideSwiper .swiper-wrapper .card {
+  width: 20em;
+  height: 90%;
+  background-color: white;
+  border-radius: 2em;
+  padding: 1em 1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 3px;
+  margin: 0 2px;
+}
+
+#sideSwiper .card_content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#sideSwiper .card_tittle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: relative;
+  top: 0.2em;
+}
+#sideSwiper .card_name {
+  color: blue;
+}
+#sideSwiper .card_text {
+  text-align: center;
+  font-size: 1.1rem;
+  margin: 1em 0;
+}
+#sideSwiper .card_btn {
+  background-color: rgb(172, 2, 172);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5em;
+  text-transform: uppercase;
+}
+
+#sideSwiper .card_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+#sideSwiper .card_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=sideMenu.css.map */

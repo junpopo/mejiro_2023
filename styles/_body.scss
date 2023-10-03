@@ -1,0 +1,11 @@
+@import "variables.scss";
+body{
+    // width: 100vw;
+    background-color: map-get($map: $colors, $key: nav);
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+    min-width: 800px;
+}
+html{
+    overflow:auto;
+}
