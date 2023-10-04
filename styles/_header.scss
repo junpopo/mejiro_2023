@@ -1,0 +1,33 @@
+@import "variables.scss";
+
+.header{
+  background: #fff;
+  .container{
+   display: flex;
+   align-items: flex-end;
+  }
+  
+}
+.header_logo{
+  height: 40px;
+  width: 300px;
+  position: relative;
+  img{
+    position: absolute;
+    margin: 54px 0 12px 51px;
+    height: 26px;
+    width: 226px;
+  }
+}
+.header_nav{
+  width: 1074px;
+  height: 44px;
+  ul{
+    display: flex;
+    text-align: center;
+    li{
+      margin-left: 20px;
+    }
+  }
+  
+}
