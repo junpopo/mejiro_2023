@@ -9,40 +9,22 @@
       rel="stylesheet"
       href="https://unpkg.com/modern-css-reset/dist/reset.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@10.2.0/swiper-bundle.min.css"
-    />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
     />
 
-    <script
-      type="module"
-      src="./script/swiper_script.js"
-      charset="utf-8"
-    ></script>
-    <script
-      type="module"
-      src="./script/swiperMainmenu_script.js"
-      charset="utf-8"
-    ></script>
-    <script
-      type="module"
-      src="./script/swiperSideMenu.js"
-      charset="utf-8"
-    ></script>
-
+    
     <title>mejiro</title>
   </head>
 
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header_logo">
+      <div class="header-inner">
+        <h1 class="header_logo">
           <img src="./images/MEJINAVI2023.svg" alt="logo">
-        </div>
+        </h1>
         <div class="header_nav">
           <ul>
             <li><a href="">Message</a></li>
@@ -52,7 +34,17 @@
             <li><a href="">movie</a></li>
           </ul>
         </div>
-        <div class="header_btn"></div>
+        <div class="btn-menu-container">
+          <button class="btn-menu">
+            <span class="btn-bg"></span>
+            <span class="btn-icon">
+              <span class="btn-icon-line-1"></span>
+              <span class="btn-icon-line-2"></span>
+              <span class="btn-text"></span>
+            </span>
+            <span></span>         
+          </button>
+        </div>
       </div>
     </header>
     <main>
