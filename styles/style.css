@@ -1,8 +1,10 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Just+Another+Hand&family=Rock+Salt&family=Shadows+Into+Light&family=Zen+Old+Mincho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Just+Another+Hand&family=Rancho&family=Rock+Salt&family=Shadows+Into+Light&family=Zen+Old+Mincho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Just+Another+Hand&family=Noto+Serif+JP:wght@500&family=Rancho&family=Rock+Salt&family=Shadows+Into+Light&family=Zen+Old+Mincho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 /* backgroud-color */
 /* font-color */
 body {
@@ -35,7 +37,8 @@ html {
   width: 100%;
 }
 .header .header-inner {
-  display: flex;
+  display: flex; /* innerのwidth,height必要ない？ */
+  vertical-align: bottom;
 }
 
 .header_logo {
@@ -45,17 +48,15 @@ html {
   height: 26px;
   fill: #19243c;
 }
-.header_logo img {
+.header_logo svg {
   width: 100%;
   height: 100%;
-  vertical-align: top;
 }
 
 .header_nav {
   margin-left: auto;
   margin-right: 158px;
   margin-top: 48px;
-  display: block;
 }
 .header_nav ul {
   display: flex;
@@ -67,9 +68,94 @@ html {
   margin-left: 30px;
   padding: 10px;
 }
-.header_nav ul li a {
-  font-size: 20px;
-  color: #19243c;
+.header_nav ul li svg {
+  width: 106px;
+  height: 44px;
+}
+
+.btn-menu-container {
+  max-width: 2560px;
+  height: 0px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+}
+
+.btn-menu {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  top: 33px;
+  right: 50px;
+}
+.btn-menu .btn-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #19243c;
+}
+.btn-menu .btn-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 12px;
+  margin: auto;
+  display: inline-block; /* なぜinline-block */
+  width: 22px;
+  height: 11px;
+}
+.btn-menu .btn-icon .btn-icon-line-1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: inline-block;
+  content: "";
+  width: 22px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  margin-top: -6px;
+}
+.btn-menu .btn-icon .btn-icon-line-2 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  display: inline-block;
+  content: "";
+  width: 22px;
+  height: 3px;
+  background: #fff;
+  border-radius: 2px;
+  margin-top: 3px;
+}
+.btn-menu .btn-text {
+  position: absolute;
+  bottom: 18px;
+  left: 0;
+  color: #fff;
+  width: 114%;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.1em;
+  display: inline-block;
+  transform: scale(0.9);
+  transform-origin: 0 0;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.2s cubic-bezier(0.33, 1, 0.68, 1);
+  font-size: 10px;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
 }
 
 /* backgroud-color */
