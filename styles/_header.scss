@@ -9,11 +9,11 @@
   max-width: 2560px;
   width: 100%;
   .header-inner {
-    display: flex; /* innerのwidth,height必要ない？ */    
+    display: flex;    
     vertical-align: bottom;
   }
 }
-.header_logo {
+.header-logo {
   margin-top: 54px;
   margin-left: 50px;
   width: 226px;
@@ -24,7 +24,7 @@
     height: 100%;   
   }
 }
-.header_nav {
+.header-nav {
   margin-left: auto;
   margin-right: 158px;
   margin-top: 48px;
@@ -44,8 +44,7 @@
     }
   }
 }
-.btn-menu-container {
-  //なぜheightが0になっているのか？
+.btn-menu-container {  
   max-width: 2560px;
   height: 0px;
   position: fixed;
@@ -78,7 +77,7 @@
     right: 0;
     bottom: 12px;
     margin: auto;
-    display: inline-block; /* なぜinline-block */
+    display: inline-block; 
     width: 22px;
     height: 11px;
     .btn-icon-line-1 {
@@ -128,4 +127,4 @@ button {
   padding: 0;
   margin: 0;
 }
-//nav-textのsvgの文字表示を統一できない
+

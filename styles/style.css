@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Just+Another+Hand&family=Rock+Salt&family=Shadows+Into+Light&family=Zen+Old+Mincho&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&family=Just+Another+Hand&family=Rancho&family=Rock+Salt&family=Shadows+Into+Light&family=Zen+Old+Mincho&display=swap");
@@ -37,38 +36,38 @@ html {
   width: 100%;
 }
 .header .header-inner {
-  display: flex; /* innerのwidth,height必要ない？ */
+  display: flex;
   vertical-align: bottom;
 }
 
-.header_logo {
+.header-logo {
   margin-top: 54px;
   margin-left: 50px;
   width: 226px;
   height: 26px;
   fill: #19243c;
 }
-.header_logo svg {
+.header-logo svg {
   width: 100%;
   height: 100%;
 }
 
-.header_nav {
+.header-nav {
   margin-left: auto;
   margin-right: 158px;
   margin-top: 48px;
 }
-.header_nav ul {
+.header-nav ul {
   display: flex;
   text-align: center;
   padding: 0;
   margin: 0;
 }
-.header_nav ul li {
+.header-nav ul li {
   margin-left: 30px;
   padding: 10px;
 }
-.header_nav ul li svg {
+.header-nav ul li svg {
   width: 106px;
   height: 44px;
 }
@@ -107,7 +106,7 @@ html {
   right: 0;
   bottom: 12px;
   margin: auto;
-  display: inline-block; /* なぜinline-block */
+  display: inline-block;
   width: 22px;
   height: 11px;
 }
