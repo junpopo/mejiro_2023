@@ -15,7 +15,19 @@ body {
   width: 5732px;
   height: 14920px;
 }
-body .wapper {
+
+svg {
+  opacity: 0;
+  position: absolute;
+  z-index: -999;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.wapper {
+  width: 2560px;
+  height: 14920px;
   max-width: 2560px;
   overflow: hidden;
   margin: 0 auto;

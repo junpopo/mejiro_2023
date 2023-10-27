@@ -1,16 +1,29 @@
 @import "variables.scss";
-body{
-    font-size: 2.4rem;
-    font-family: 'NotoSansJP-Regular', sans-serif;
-    color: #000;
-    background-color: #3a3a3a;
-    display: block;
-    width: 5732px;
-    height: 14920px;
-    .wapper{
-        max-width: 2560px;
-        overflow: hidden;
-        margin: 0 auto;
-    }
+body {
+  font-size: 2.4rem;
+  font-family: "NotoSansJP-Regular", sans-serif;
+  color: #000;
+  background-color: #3a3a3a;
+  display: block;
+  width: 5732px;
+  height: 14920px;
+  
 }
+svg{
+    opacity: 0;
+    position: absolute;
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+  }
+.wapper {
+  width: 2560px;
+  height: 14920px;
+  max-width: 2560px;
+  overflow: hidden;
+  margin: 0 auto;
+//   position: relative;
+}
+
 
