@@ -216,4 +216,11 @@ button {
 }
 .menu-contents div {
   position: absolute;
+}
+
+/* backgroud-color */
+/* font-color */
+.main {
+  background: #ffb5c3;
+  display: block;
 }/*# sourceMappingURL=style.css.map */
