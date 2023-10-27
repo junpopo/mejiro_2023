@@ -7,4 +7,10 @@ body{
     display: block;
     width: 5732px;
     height: 14920px;
+    .wapper{
+        max-width: 2560px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
 }
+
