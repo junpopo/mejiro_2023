@@ -7,21 +7,13 @@
 /* backgroud-color */
 /* font-color */
 body {
-  overflow: hidden;
-}
-body .container {
-  max-width: 1145px;
-  margin: 0;
-}
-body li {
-  list-style: none;
-}
-body li a {
-  text-decoration: none;
-}
-
-html {
-  overflow: auto;
+  font-size: 2.4rem;
+  font-family: "NotoSansJP-Regular", sans-serif;
+  color: #000;
+  background-color: #3a3a3a;
+  display: block;
+  width: 5732px;
+  height: 14920px;
 }
 
 /* backgroud-color */

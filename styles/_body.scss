@@ -1,22 +1,10 @@
 @import "variables.scss";
 body{
-    .container{
-        max-width: 1145px;
-        margin: 0;
-        
-      }
-    // background-color: map-get($map: $colors, $key: nav);
-    // font-family: "Poppins", sans-serif;
-    overflow: hidden;
-    
-    li{
-        list-style: none;
-        a{
-            text-decoration: none;
-        }        
-    }
-    
-}
-html{
-    overflow:auto;
+    font-size: 2.4rem;
+    font-family: 'NotoSansJP-Regular', sans-serif;
+    color: #000;
+    background-color: #3a3a3a;
+    display: block;
+    width: 5732px;
+    height: 14920px;
 }
