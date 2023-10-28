@@ -1,1 +1,36 @@
-@import "variables.scss";
+section {
+  position: relative;
+}
+
+.section-mainVisual {
+  z-index: 1;
+  width: 5672px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  .section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100% + 200px);
+    background: #ffb5c3;
+  }
+  .section-inner {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1160px;
+    min-height: 800px;
+  }
+  .mainVisual-section-heading{    
+    width: 1160px;
+    height: 800px;
+    position: absolute;
+    margin: auto;
+    
+  }
+}

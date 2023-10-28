@@ -222,5 +222,54 @@ button {
 /* font-color */
 .main {
   background: #ffb5c3;
+  height: 100%;
+  width: 100%;
+}
+.main::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
   display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/images/bg-texture.webp) 0 0 repeat;
+  background-size: 100px 100px;
+  opacity: 0.4;
+}
+
+section {
+  position: relative;
+}
+
+.section-mainVisual {
+  z-index: 1;
+  width: 5672px;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section-mainVisual .section-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: calc(100% + 200px);
+  background: #ffb5c3;
+}
+.section-mainVisual .section-inner {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1160px;
+  min-height: 800px;
+}
+.section-mainVisual .mainVisual-section-heading {
+  width: 1160px;
+  height: 800px;
+  position: absolute;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
