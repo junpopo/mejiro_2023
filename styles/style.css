@@ -272,4 +272,68 @@ section {
   height: 800px;
   position: absolute;
   margin: auto;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 7px;
+}
+.section-mainVisual .mainVisual-section-heading .copy {
+  color: #19243c;
+  font-size: 2rem;
+  letter-spacing: 0.09em;
+  font-family: "NotoSansJP-Bold", sans-serif;
+}
+.section-mainVisual .mainVisual-section-heading .copy span {
+  display: inline-flex;
+}
+.section-mainVisual .mainVisual-section-heading .copy .text-red {
+  margin-right: 1px;
+  color: #d42f2f;
+  letter-spacing: 0;
+  align-items: flex-end;
+  font-family: "NotoSansJP-Black", sans-serif;
+  vertical-align: bottom;
+}
+.section-mainVisual .mainVisual-section-heading .heading {
+  position: relative;
+  display: block;
+  width: 768px;
+  height: 272px;
+  margin-left: 6px;
+  margin-top: 38px;
+  fill: #19243c;
+}
+.section-mainVisual .mainVisual-section-heading .heading span {
+  position: absolute;
+}
+
+.mainVisual-section-heading .copy .text-red span:nth-child(1) {
+  font-size: 3.8rem;
+}
+
+.mainVisual-section-heading .copy .text-red span:nth-child(2) {
+  margin-left: -4px;
+  margin-bottom: -7px;
+  font-size: 3rem;
+}
+
+.mainVisual-section-heading .copy .text-red span:nth-child(3) {
+  margin-left: -4px;
+  margin-bottom: 2px;
+  font-size: 2.4rem;
+}
+
+.mainVisual-section-heading .heading .text-m {
+  top: 0;
+  left: 0;
+  width: 139px;
+  height: 129px;
+}
+.mainVisual-section-heading .heading .text-m svg {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
 }/*# sourceMappingURL=style.css.map */
